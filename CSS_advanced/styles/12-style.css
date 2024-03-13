@@ -1,36 +1,11 @@
-:root {
-    --primary-color: #d73953;
-    --black-color: #090909;
-    --white-color: #ffffff;
-    --light-grey-color: #f3f3f3;
-    --dark-grey-color: #353535;
-    --text-color: var(--black-color);
-    
-    --base-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --title-font: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
-    --small-font-size: 1.2rem;
-    --medium-font-size: 1.6rem;
-    --large-font-size: 1.8rem;
-    --x-large-font-size: 2.3rem;
-    --xx-large-font-size: 4.8rem;
-    
-    --regular-font-weight: 400;
-    --bold-font-weight: 700;
-    
-    --small-line-height: 1.2;
-    --base-line-height: 1.5;
-    --big-line-height: 1.8;
-    
-    --header-align: center;
-    --tagline-transform: uppercase;
-    --title-margin: 0;
-    --title-color: var(--black-color);
-}
-
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 body {
@@ -41,9 +16,29 @@ body {
     line-height: var(--base-line-height);
 }
 
-a {
-    color: var(--text-color);
-    text-decoration: none;
+:root {
+    --primary-color: #d73953;
+    --black-color: #090909;
+    --white-color: #ffffff;
+    --light-grey-color: #f3f3f3;
+    --dark-grey-color: #353535;
+    --text-color: var(--black-color);
+    --base-font: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --title-font: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --small-font-size: 1.2rem;
+    --medium-font-size: 1.6rem;
+    --large-font-size: 1.8rem;
+    --x-large-font-size: 2.3rem;
+    --xx-large-font-size: 4.8rem;
+    --regular-font-weight: 400;
+    --bold-font-weight: 700;
+    --small-line-height: 1.2;
+    --base-line-height: 1.5;
+    --big-line-height: 1.8;
+    --header-align: center;
+    --tagline-transform: uppercase;
+    --title-margin: 0;
+    --title-color: var(--black-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
